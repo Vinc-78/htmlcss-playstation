@@ -14,9 +14,7 @@
 
 /* Modifiche alla nav bar */
 
-.my-nav-main { position: sticky;
-                top:0;
-                left: 0;}
+.my-nav-main { position: sticky;}
 
 .bordo.btn-dark{ border-radius: 50px;
                  margin: 1rem 0;}
@@ -30,3 +28,23 @@
 nav .navbar-nav li a  { padding: 1.5rem 1rem;
                          font-weight: bold;
                         font-size: 18px;}
+
+
+
+/* Hero */
+
+.hero { background-image: url("../img/jumbo-bg.png");
+        background-size: cover;
+    
+        color :white}
+
+/* ****************************** 
+***      Classi Utilities      ***
+*********************************/
+
+
+.section-very-large { padding-top:  250px; 
+                      padding-bottom: 50px;}
+
+.title h2 { padding-bottom: 25px;}
+
