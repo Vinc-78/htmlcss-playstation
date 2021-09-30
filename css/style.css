@@ -1,0 +1,32 @@
+.nav-brand { background-color: black;
+            text-align: right;
+            line-height: 40px;
+            position: sticky;
+            top: 0;
+            left:0;}
+
+.logo {height: 50px;}
+
+.logo img {height: 30%;
+           margin: 10px 20px;}
+
+
+
+/* Modifiche alla nav bar */
+
+.my-nav-main { position: sticky;
+                top:0;
+                left: 0;}
+
+.bordo.btn-dark{ border-radius: 50px;
+                 margin: 1rem 0;}
+
+.carattere.btn { font-size: 18px;
+                 font-weight: bold;}
+
+.navbar-light .navbar-nav .nav-link {color:black;}
+
+
+nav .navbar-nav li a  { padding: 1.5rem 1rem;
+                         font-weight: bold;
+                        font-size: 18px;}
