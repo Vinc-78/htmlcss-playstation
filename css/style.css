@@ -40,10 +40,11 @@ nav .navbar-nav li a  { padding: 1.5rem 1rem;
         
         content: url(../img/chevron-down-solid.svg);
         width: 15px;  
-        transition: transform 0.1s          
+        transition: transform 0.3s          
 }  
 
 /* quando è in focus ruota la freccia e cambia */
+
 
 .dropdown-toggle:focus::after {
         transform: rotate(180deg);
@@ -66,7 +67,8 @@ del li list item */
                top:100%;
                left:0;
                right:0;
-               overflow: hidden;}
+               overflow: hidden;
+               transition: max-height 0.7s}
 
 .my-link:focus + .my-sub-menu { max-height: 500px }
 
@@ -313,3 +315,26 @@ del li list item */
 
 
 .prodotti-opacizzati-off:hover {opacity: 1!important;}
+
+
+/* ****************************** 
+***     animation in Y game-card    ***
+*********************************/
+
+.game-card {transform: translateY(0);
+            transition: transform 0.5s;}
+
+.game-card:hover { transform: translateY(-20%);}
+
+.game-card:focus { border: 5px double rgb(45, 100, 230);
+                   border-radius: 25px;}
+
+
+/* Altri effetti */
+
+.prodotti-opacizzati-off:hover { border-bottom: 3px solid rgb(45, 100, 230);}
+
+.footer-link.nav-link:hover {
+        text-decoration: underline;
+        color: white;
+    }
