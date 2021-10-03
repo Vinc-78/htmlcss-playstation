@@ -24,8 +24,55 @@ nav .navbar-nav li a  { padding: 1.5rem 1rem;
 
 
 .navbar-light .navbar-nav .nav-link:hover {
-                color: rgba(0,0,0,.9);
+                color: rgb(45, 100, 230);
                             }
+
+/* Elimino gli stili della freccia di default messi a 0
+ e la sostituisco con quella di stile*/
+                        
+.dropdown-toggle::after {      
+        
+        border-top: 0;
+        border-right: 0;
+        border-bottom: 0;
+        border-left: 0;
+        vertical-align: middle;
+        
+        content: url(../img/chevron-down-solid.svg);
+        width: 15px;  
+        transition: transform 0.1s          
+}  
+
+/* quando è in focus ruota la freccia e cambia */
+
+.dropdown-toggle:focus::after {
+        transform: rotate(180deg);
+        content: url(../img/chevron-down-solid-hover.svg);
+      }
+ 
+
+/* ****************************** 
+***     SUb-Menu              ***
+*********************************/
+
+/* Apre una finestra in absolute in relazione al position:initial 
+del li list item */
+
+.my-li { position: initial;}
+
+.my-sub-menu { max-height: 0px;
+              
+               position: absolute;
+               top:100%;
+               left:0;
+               right:0;
+               overflow: hidden;}
+
+.my-link:focus + .my-sub-menu { max-height: 500px }
+
+
+
+
 /* Hero */
 
 .hero { background-image: url("../img/jumbo-bg.png");
@@ -42,6 +89,12 @@ nav .navbar-nav li a  { padding: 1.5rem 1rem;
 .arrotondata.rounded-3 {
         border-radius: 20px!important;
     }
+
+.border-turn-on { border: 3px solid rgb(4, 116, 206) ;
+                
+        border-radius: 25px;}
+
+
 
 
 /* Console */
@@ -106,15 +159,6 @@ nav .navbar-nav li a  { padding: 1.5rem 1rem;
                 background-repeat: no-repeat;
                 background-size: contain;
                 margin-bottom: 25px ;}
-
-
-
-
-/* ****************************** 
-***      HOVER  if/request     ***
-*********************************/
-
-
 
 
 

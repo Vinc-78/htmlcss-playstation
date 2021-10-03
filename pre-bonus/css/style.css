@@ -1,0 +1,159 @@
+*{ font-family: Arial, Helvetica, sans-serif;}
+
+.nav-brand { background-color: black;
+            text-align: right;
+            line-height: 40px;
+           }
+
+.logo {height: 50px;}
+
+.logo img {height: 30%;
+           margin: 10px 20px;}
+
+
+
+/* Modifiche alla nav bar */
+
+
+.navbar-light .navbar-nav .nav-link {color:black;}
+
+
+nav .navbar-nav li a  { padding: 1.5rem 1rem;
+                         font-weight: bold;
+                        font-size: 18px;}
+
+
+.navbar-light .navbar-nav .nav-link:hover {
+                color: rgba(0,0,0,.9);
+                            }
+/* Hero */
+
+.hero { background-image: url("../img/jumbo-bg.png");
+        background-size: cover;
+        background-position: center;
+       
+        color:white;}
+
+
+.colore-hero{ background-color: rgb(215, 61, 15);}
+
+/* Card in line */
+
+.arrotondata.rounded-3 {
+        border-radius: 20px!important;
+    }
+
+
+/* Console */
+
+.colore-console{ background-color: rgb(45, 100, 230);
+                 border-color:none;}
+
+
+/* Prodotti */
+
+.line-bottom { border-bottom: 3px solid rgb(45, 100, 230);                ;}
+
+.my-card {cursor: pointer;}
+
+
+/* Takes Two */
+
+
+.takes-two { background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+             background-size: cover;
+             background-position: center;
+             color:white;}
+
+
+
+/* Nuove Uscite  */
+
+
+.new-production { background-color: rgb(31, 31, 31);
+                 color: white;}
+
+
+
+/* Play Plus */
+
+.play-plus {background-color: rgb(190, 188, 187);}
+
+
+.colore-plus{ background-color: rgb(217, 218, 220);
+              color: rgb(45, 100, 230);
+              border:none;}
+
+
+.section-logo-left img {width: 50%;
+                        padding-bottom: 35px;}
+
+/* Play Now */
+
+
+.play-now {background-color: rgb(22, 28, 59);}
+
+
+/* Footer */
+
+.my-footer {background-color: rgb(0, 67, 156);}
+
+.footer-link.nav-link { color:white;}
+
+
+.footer-logo {  height: 80px;
+                background-image: url("../img/ps-footer.svg");
+                background-repeat: no-repeat;
+                background-size: contain;
+                margin-bottom: 25px ;}
+
+
+
+
+/* ****************************** 
+***      HOVER  if/request     ***
+*********************************/
+
+.border-turn-on { border: 3px solid rgb(4, 116, 206) ;
+                
+                  border-radius: 25px;}
+
+
+
+/* ****************************** 
+***      Classi Utilities      ***
+*********************************/
+
+.section-normal { padding:50px 0;}
+
+.section-midium { padding:30px 0;}
+
+.section-very-large { padding-top:  225px; 
+                      padding-bottom: 50px;}
+
+.section-title h2 { margin-bottom: 25px;
+                    font-size: 40px}
+
+
+.section-title h3 { font-size: 16px;
+                    margin-bottom: 30px;}
+
+
+.new-production h3 { font-size: 23px;}
+
+
+
+.sub-title-grey h3 { color:rgb(114, 114, 114)}
+
+.super p { color:rgb(4, 116, 206);
+           margin-bottom:-1px;
+           font-weight: bold;
+           font-size:12px;}
+
+
+.my-round-up.btn-dark{ border-radius: 50px;
+                       margin: 1rem 0;}
+
+.carattere.btn { font-size: 18px;
+                font-weight: bold;}
+
