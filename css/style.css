@@ -59,10 +59,10 @@ nav .navbar-nav li a  { padding: 1.5rem 1rem;
 /* Apre una finestra in absolute in relazione al position:initial 
 del li list item */
 
-.my-li { position: initial;}
+.my-li { position: static;}
 
 .my-sub-menu { max-height: 0px;
-              
+ /* con position fixed e top alla giusta altezza non serve il position initial */
                position: absolute;
                top:100%;
                left:0;
@@ -338,3 +338,14 @@ del li list item */
         text-decoration: underline;
         color: white;
     }
+
+
+
+@media (min-width: 992px) {
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0rem;
+        padding-left: 0rem;
+    }
+
+}
